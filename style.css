@@ -1,0 +1,53 @@
+body {
+	margin: 30px auto;
+	width: 70%;
+	text-align: center;
+	background-color: darkred;
+}
+
+p {
+	font-family: Didot;
+	color:black ;
+}
+
+img {
+	width: 100%;
+	object-fit: cover;
+}
+
+a {
+	font-family: monospace;
+	font-size: 24px;
+	color: whitesmoke;
+	font-weight: 800;
+}
+
+.top {
+	background-image: url("images/lala.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+}
+
+#lala {
+	color: whitesmoke;
+}
+
+.bands {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-top: 30px;
+}
+
+.band {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
